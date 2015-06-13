@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CF7686341B2B2A65008A9B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7686331B2B2A65008A9B81 /* AppDelegate.swift */; };
-		CF7686361B2B2A65008A9B81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7686351B2B2A65008A9B81 /* ViewController.swift */; };
 		CF7686391B2B2A65008A9B81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7686371B2B2A65008A9B81 /* Main.storyboard */; };
 		CF76863B1B2B2A65008A9B81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF76863A1B2B2A65008A9B81 /* Images.xcassets */; };
 		CF76863E1B2B2A65008A9B81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF76863C1B2B2A65008A9B81 /* LaunchScreen.xib */; };
 		CF76864A1B2B2A65008A9B81 /* SJFuzzySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7686491B2B2A65008A9B81 /* SJFuzzySearchTests.swift */; };
+		CF7686541B2B2EA5008A9B81 /* SJRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7686531B2B2EA5008A9B81 /* SJRootViewController.swift */; };
+		CF76865A1B2B3512008A9B81 /* SJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7686591B2B3512008A9B81 /* SJViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		CF76862E1B2B2A65008A9B81 /* SJFuzzySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJFuzzySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7686321B2B2A65008A9B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7686331B2B2A65008A9B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF7686351B2B2A65008A9B81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF7686381B2B2A65008A9B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF76863A1B2B2A65008A9B81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF76863D1B2B2A65008A9B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CF7686431B2B2A65008A9B81 /* SJFuzzySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJFuzzySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7686481B2B2A65008A9B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7686491B2B2A65008A9B81 /* SJFuzzySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJFuzzySearchTests.swift; sourceTree = "<group>"; };
+		CF7686531B2B2EA5008A9B81 /* SJRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJRootViewController.swift; sourceTree = "<group>"; };
+		CF7686591B2B3512008A9B81 /* SJViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				CF7686331B2B2A65008A9B81 /* AppDelegate.swift */,
-				CF7686351B2B2A65008A9B81 /* ViewController.swift */,
+				CF7686531B2B2EA5008A9B81 /* SJRootViewController.swift */,
+				CF7686591B2B3512008A9B81 /* SJViewController.swift */,
 				CF7686371B2B2A65008A9B81 /* Main.storyboard */,
 				CF76863A1B2B2A65008A9B81 /* Images.xcassets */,
 				CF76863C1B2B2A65008A9B81 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7686361B2B2A65008A9B81 /* ViewController.swift in Sources */,
 				CF7686341B2B2A65008A9B81 /* AppDelegate.swift in Sources */,
+				CF76865A1B2B3512008A9B81 /* SJViewController.swift in Sources */,
+				CF7686541B2B2EA5008A9B81 /* SJRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

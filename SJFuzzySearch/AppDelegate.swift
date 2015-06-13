@@ -6,6 +6,13 @@
 //  Copyright (c) 2015年 shejun.zhou. All rights reserved.
 //
 
+/**
+ @file      AppDelegate.swift
+ @abstract  模糊查询
+ @author    shejun.zhou
+ @version   1.00 15/6/12 Creation
+ */
+
 import UIKit
 
 @UIApplicationMain
