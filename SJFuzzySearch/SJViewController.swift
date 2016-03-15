@@ -16,6 +16,8 @@ class SJViewController: UIViewController, UITableViewDataSource, UITableViewDele
     var data = []
     var dataHold = []
     
+    var titleWithClosuer:((title:String)->Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -45,6 +47,8 @@ class SJViewController: UIViewController, UITableViewDataSource, UITableViewDele
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.searchBarCancelButtonClicked(self.searchBar)
+         titleWithClosuer?(title: self.data[indexPath.row] as! String)
+        self.navigationController?.popViewControllerAnimated(true)
     }
 
     // pragma mark - UISearchBarDelegate
@@ -88,6 +92,10 @@ class SJViewController: UIViewController, UITableViewDataSource, UITableViewDele
     }
     
     // pragma mark - private methods
+    
+    func dataWithFuzzySearch() {
+        
+    }
     
     func resetData() {
         data = ["北京市",
